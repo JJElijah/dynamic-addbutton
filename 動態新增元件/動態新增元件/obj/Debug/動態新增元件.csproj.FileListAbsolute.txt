@@ -1,0 +1,15 @@
+C:\Users\smilechieh\Desktop\C#\WPF\動態新增元件\動態新增元件\bin\Debug\動態新增元件.exe.config
+C:\Users\smilechieh\Desktop\C#\WPF\動態新增元件\動態新增元件\bin\Debug\動態新增元件.exe
+C:\Users\smilechieh\Desktop\C#\WPF\動態新增元件\動態新增元件\bin\Debug\動態新增元件.pdb
+C:\Users\smilechieh\Desktop\C#\WPF\動態新增元件\動態新增元件\obj\Debug\動態新增元件.csprojResolveAssemblyReference.cache
+C:\Users\smilechieh\Desktop\C#\WPF\動態新增元件\動態新增元件\obj\Debug\MainWindow.g.cs
+C:\Users\smilechieh\Desktop\C#\WPF\動態新增元件\動態新增元件\obj\Debug\App.g.cs
+C:\Users\smilechieh\Desktop\C#\WPF\動態新增元件\動態新增元件\obj\Debug\動態新增元件_MarkupCompile.cache
+C:\Users\smilechieh\Desktop\C#\WPF\動態新增元件\動態新增元件\obj\Debug\動態新增元件_MarkupCompile.lref
+C:\Users\smilechieh\Desktop\C#\WPF\動態新增元件\動態新增元件\obj\Debug\MainWindow.baml
+C:\Users\smilechieh\Desktop\C#\WPF\動態新增元件\動態新增元件\obj\Debug\動態新增元件.g.resources
+C:\Users\smilechieh\Desktop\C#\WPF\動態新增元件\動態新增元件\obj\Debug\動態新增元件.Properties.Resources.resources
+C:\Users\smilechieh\Desktop\C#\WPF\動態新增元件\動態新增元件\obj\Debug\動態新增元件.csproj.GenerateResource.cache
+C:\Users\smilechieh\Desktop\C#\WPF\動態新增元件\動態新增元件\obj\Debug\動態新增元件.csproj.CoreCompileInputs.cache
+C:\Users\smilechieh\Desktop\C#\WPF\動態新增元件\動態新增元件\obj\Debug\動態新增元件.exe
+C:\Users\smilechieh\Desktop\C#\WPF\動態新增元件\動態新增元件\obj\Debug\動態新增元件.pdb
