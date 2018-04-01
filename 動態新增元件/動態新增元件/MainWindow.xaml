@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="672" Width="534">
     <Grid x:Name="gr1">
-        <Button x:Name="bt_add" Content="新增按鈕" HorizontalAlignment="Left" Margin="35,30,0,0" VerticalAlignment="Top" Width="450" Height="85" FontSize="36" Click="bt_add_Click"/>
+        <Button x:Name="bt_add" Content="新增按鈕" HorizontalAlignment="Left" Margin="35,30,0,0" VerticalAlignment="Top" Width="210" Height="85" FontSize="36" Click="bt_add_Click"/>
+        <Button x:Name="bt_all" Content="按鈕補齊" HorizontalAlignment="Left" Margin="280,30,0,0" VerticalAlignment="Top" Width="210" Height="85" FontSize="36" Click="bt_all_Click"/>
 
     </Grid>
 </Window>
