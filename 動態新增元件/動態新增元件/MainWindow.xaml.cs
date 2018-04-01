@@ -19,9 +19,8 @@ namespace 動態新增元件
     /// MainWindow.xaml 的互動邏輯
     /// </summary>
     
-        /*下一新增內容
-        *按鈕數量擴充至16個
-        *新增一次補齊按鈕功能
+        /*下一版新增內容
+        *改版為記憶翻牌
          */
     public partial class MainWindow : Window
     {
@@ -49,6 +48,14 @@ namespace 動態新增元件
             bt.Content = content;
             return bt;
         }
+
+        public void setenable(int bt_count, Button bt) {
+            if (bt_count == 16)
+            {
+                bt.IsEnabled = false;
+            }
+            else { bt.IsEnabled = true; }
+        }
         
         private void bt_add_Click(object sender, RoutedEventArgs e)
         {
@@ -70,21 +77,12 @@ namespace 動態新增元件
             
             gr1.Children.Add(b1);//將按鈕加進GRID
             bt_count += 1;//按鈕數量
-
-            if (bt_count == 16)
-            {
-                bt_add.IsEnabled = false;
-            }
-            else
-            {
-                bt_add.IsEnabled = true;
-            }
+            setenable(bt_count, bt_add);
         }
 
         //按鈕全補
         private void bt_all_Click(object sender, RoutedEventArgs e)
         {
-            
             for (int i = 0; i < b_arr.Length; i++) {
                 if (b_arr[i].Name == "empty"+Convert.ToString(i)) {
                     b_arr[i].VerticalAlignment = VerticalAlignment.Top;
@@ -93,20 +91,15 @@ namespace 動態新增元件
                     b_arr[i].Click += new RoutedEventHandler(remove);
                     b_arr[i].Margin = new Thickness(35 + 115 * (i % 4), 130 + 120 * (i / 4), 0, 0); ;
                     gr1.Children.Add(b_arr[i]);
+                    bt_count += 1;
                 }
             }
+            setenable(bt_count, bt_add);
         }
 
         private void remove(object sender, RoutedEventArgs e) {
             bt_count -= 1;
-            if (bt_count == 16)
-            {
-                bt_add.IsEnabled = false;
-            }
-            else
-            {
-                bt_add.IsEnabled = true;
-            }
+            setenable(bt_count, bt_add);
 
             Button b2 = (Button)sender;
 
